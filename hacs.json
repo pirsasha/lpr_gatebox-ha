@@ -1,13 +1,6 @@
-@'
 {
   "name": "LPR GateBox",
   "content_in_root": false,
   "render_readme": true,
   "domains": ["lpr_gatebox"]
 }
-'@ | Set-Content -Encoding utf8 .\hacs.json
-
-python -m json.tool .\hacs.json
-git add .\hacs.json
-git commit -m "fix: hacs.json install from repo"
-git push
