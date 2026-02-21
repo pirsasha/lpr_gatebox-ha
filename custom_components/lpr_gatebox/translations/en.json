@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "LPR GateBox",
+        "description": "Connect to LPR GateBox API. Enter the base URL where port 8080 is reachable.",
+        "data": {
+          "base_url": "GateBox base URL (e.g. http://192.168.2.76:8080)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "This URL is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options",
+        "description": "SSE and diagnostics settings.",
+        "data": {
+          "include_debug": "Include debug events",
+          "heartbeat_sec": "SSE heartbeat, sec",
+          "poll_ms": "SSE polling interval, ms"
+        }
+      }
+    }
+  }
+}

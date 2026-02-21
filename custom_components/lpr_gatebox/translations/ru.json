@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "LPR GateBox",
+        "description": "Подключение к API LPR GateBox (GateBox). Укажите адрес сервиса, где открыт порт 8080.",
+        "data": {
+          "base_url": "Адрес GateBox (например http://192.168.2.76:8080)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Не удалось подключиться",
+      "unknown": "Неизвестная ошибка"
+    },
+    "abort": {
+      "already_configured": "Этот адрес уже добавлен"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Настройки",
+        "description": "Настройки получения событий (SSE) и диагностики.",
+        "data": {
+          "include_debug": "Включать debug-события",
+          "heartbeat_sec": "Heartbeat SSE, сек",
+          "poll_ms": "Интервал опроса SSE, мс"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "LPR GateBox",
+  "domains": [
+    "lpr_gatebox"
+  ],
+  "content_in_root": false,
+  "render_readme": true,
+  "zip_release": true,
+  "country": [
+    "RU",
+    "DE"
+  ]
+}
